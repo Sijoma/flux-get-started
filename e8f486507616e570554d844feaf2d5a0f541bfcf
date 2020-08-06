@@ -1,0 +1,1 @@
+{"jobID":"88cde462-4d6d-0693-d82b-78e129d5a371","spec":{"type":"policy","cause":{"Message":"","User":"Simon Schulte \u003csimon.schulte@lht.dlh.de\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag.podinfod":"glob:3.2.*"},"remove":{}}}},"result":null}
