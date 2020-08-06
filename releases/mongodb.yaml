@@ -7,8 +7,10 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.chart-image: semver:~4.0
+    helm.fluxcd.io/migrate: "true" # add annotation
 spec:
   releaseName: mongodb
+  helmVersion: v3
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: mongodb
